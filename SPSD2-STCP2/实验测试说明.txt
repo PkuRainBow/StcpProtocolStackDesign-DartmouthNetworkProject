@@ -1,0 +1,9 @@
+实验修正
+
+按照测试1M文件的需要修改了一些参数，客户端和服务器端接收文件后，
+sleep时间分别调整为客户端15s 服务器端20s 
+
+/server/receivedtxt.txt文件初始化为空
+
+/client/sendthis.txt 文件是1M的测试文件
+/client/sendthis_small.txt 文件是4K的测试文件
